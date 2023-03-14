@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(gym.jpg);
+    height: 680px;
+    color: aliceblue;
+}
+.left{
+    position: absolute;
+    top: 5px;
+    left: 33px   
+/* border: 2px solid red; */
+color: aliceblue;
+display: inline-block;
+}
+.mid{
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+/* border: 2px solid red; */
+color: aliceblue;
+}
+
+.right{
+    display: inline-block;
+    /* border: 2px solid red; */
+    color: aliceblue; 
+    position: absolute;
+    top: 20px;
+    right: 14px;   
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 18px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 3px 10px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: brown;
+
+}
+.left img{
+    width: 104px;
+}
+.btn{
+    font-family: cursive;
+    border: 1px solid rgb(255, 248, 248);
+    color: rgb(255, 248, 248);
+    background-color: rgba(228, 164, 3, 0.24);
+    border-radius: 12px;
+    margin: 9px 10px;
+    padding: 6px 13px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: brown;
+}
+.container{
+    border: 2px solid rgb(245, 238, 238);
+    margin: auto;
+    padding: 50px 50px;
+    border-radius: 22px;
+    width: 35%;
+    font-size: 18px;
+}
+.form input{
+    display: block;
+    background-color:rgba(228, 164, 3, 0.24);
+    color: azure;
+    border: 1px solid azure;
+    margin: 8px auto;
+    padding: 5px;
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    background-color: rgb(228, 164, 3);
+    display: block;
+    margin: 23px auto;
+    width: 87%;
+}
